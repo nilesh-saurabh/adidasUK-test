@@ -28,9 +28,3 @@ This solution shows  adidas UK homepage UI automation
 2) Automatically One cypress UI window will open
 
 3) Click on AdidasUITest.js file
-
- *Or* 
-
-Below command is to run tests in headless mode:
-
-'npm run test-chrome-adidasTest'

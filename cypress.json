@@ -1,0 +1,31 @@
+{
+  "env": {
+    "AdidasUK": "https://www.adidas.co.uk",
+    "browserPermissions": {
+      "notifications": "allow",
+      "geolocation": "allow",
+      "camera": "block",
+      "microphone": "block",
+      "images": "allow",
+      "javascript": "allow",
+      "popups": "ask",
+      "plugins": "ask",
+      "cookies": "allow"
+    }
+  },
+
+  "chromeWebSecurity": false,
+  "cross-Origin-Resource-Policy": "same-site",
+  "cross-origin-opener-policy": "unsafe-none",
+  "userAgent": null,
+  "modifyObstructiveCode": false,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "reportFilename": "report",
+    "overwrite": false,
+    "html": true,
+    "json": true,
+    "charts": true
+  }
+}

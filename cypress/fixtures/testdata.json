@@ -1,0 +1,33 @@
+{
+  "searchtext": "running",
+  "url_check": "https://www.adidas.co.uk/search?q=running",
+  "correct_url":"",
+  "teststep01": "AppliFashionPage_Cross-Device_Elements_Test",
+  "teststep02": "AppliFashionPage_Filter_Results",
+  "teststep03": "AppliFashionPage_Product_Details_test",
+  "commonheight": 800,
+  "commonwidth": 600,
+  "shoesize": "Small (S)",
+  "shoediscountedprice": "$33.00",
+  "browserconfig": [
+    {
+      "name": "chrome",
+      "device": "desktop",
+      "height": 1200,
+      "width": 700
+    },
+    {
+      "name": "chrome",
+      "device": "tablet",
+      "height": 768,
+      "width": 700
+    },
+    {
+      "name": "chrome",
+      "device": "mobile",
+      "height": 500,
+      "width": 700
+    }
+  ]
+}
+
